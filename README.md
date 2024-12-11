@@ -6,7 +6,7 @@ Has 2 modules, Rest module that receives the http request with the parameters an
 
 Both modules act as producer and consumer
 
-To run the program you have to run the docker compose using the command: 
+To run the program you have to run the docker compose file using the command: 
 
 docker-compose up --build 
 
@@ -16,6 +16,21 @@ It will build both the modules and allocate them on ports 8080 and 8081. Kafka w
 
 **Unit tests done only for Calculator module**
 
+Sum:
+
+![Sum](Results/Sum.png)
+
+Subtraction:
+
+![Subtraction](Results/Subtraction.png)
+
+Division:
+
+![Division](Results/Division.png)
+
+Multiplication:
+
+![Multiplication](Results/Multiplication.png)
 
 
 
